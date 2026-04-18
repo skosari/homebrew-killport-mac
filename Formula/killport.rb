@@ -1,10 +1,10 @@
 class Killport < Formula
   desc "Kill whatever process is running on a port — macOS"
   homepage "https://github.com/skosari/killport-mac"
-  url "https://github.com/skosari/killport-mac/archive/refs/tags/v1.6.7.tar.gz"
-  sha256 "479accddd5b43ab6cfc0e66eead14324150979450f5da8212126a144d1ad1ebf"
+  url "https://github.com/skosari/killport-mac/archive/refs/tags/v1.10.6.tar.gz"
+  sha256 "2cdb063a5a83990cfb8ef0dd913ded8d9edb0cb0ddb1ed6c2617778a361ba9c0"
   license "LicenseRef-killport"
-  version "1.6.7"
+  version "1.10.6"
 
   def install
     bin.install "killport"
